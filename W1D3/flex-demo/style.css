@@ -1,0 +1,26 @@
+.nav{
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+  justify-content: space-between;
+  width: 400px;
+}
+
+h1{
+  color: white;
+  margin-left: 20px;
+}
+
+a{
+  text-decoration: none;
+   color: white;
+   
+
+}

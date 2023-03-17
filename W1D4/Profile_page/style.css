@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* --------nav bar-------- */
+.nav{
+  background-color: red;
+  height: 100px;
+}
+/* -------- main content---------- */
+.main-content{
+  background-color: orange;
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+/* ----------left column---------- */
+.left-column{
+  background-color: green;
+  width: 600px;
+  height: 900px;
+  margin-right: 40px;
+}
+/* --------------right column------------ */
+.right-column{
+  background-color: blueviolet;
+  width: 400px;
+  height: 900px;
+}
+/* ---------profile card----------- */
+.profile-card{
+  background-color: hotpink;
+  width: 600px;
+  height: 500px;
+
+}
+/* --------------education section------------- */
+.education-section{
+  background-color: aqua;
+  width: 600px;
+  height: 300px;
+  margin-top: 40px;
+}
+
+
+/* ----------connection requests section-------- */
+
+.connection-requests-section{
+  background-color: yellow;
+  height: 350px;
+  width: 400px;
+}
+
+/* --------your connections section-------- */
+.your-connections-section{
+  background-color: fuchsia;
+  height: 500px;
+  width: 400px;
+  margin-top: 40px;
+}
