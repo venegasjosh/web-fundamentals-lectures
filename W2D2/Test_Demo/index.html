@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- -----navbar----- -->
+
+  <nav>
+    <h1>DojoWeather</h1>
+
+    <ul>
+      <li>
+        <a onclick="displayAlert()" href="#">Burbank</a>
+      </li>
+      <li>
+        <a onclick="displayAlert()" href="#">Chicago</a>
+      </li>
+      <li>
+        <a onclick="displayAlert()" href="#">Dallas</a>
+      </li>
+    </ul>
+
+  </nav>
+
+
+  <!-- ----- main content----- -->
+  <div class="main">
+    <div class="sub-nav">
+      <h2>San Jose</h2>
+      <div class="weather-selector">
+        <label for="temp-picker">Show temperature in:</label>
+        <select onchange="switchTempMeasurements(this)" name="temp-picker" id="temp-picker">
+          <option value="celcius">C</option>
+          <option value="farenheit">F</option>
+      </select>
+      
+
+
+      </div>
+    </div>
+    <div class="weather-card-area">
+      <div class="weather-card">
+        <h3>Today</h3>
+        <img src="./images/some_rain.png" alt="some rain image">
+        <p>some rain</p>
+        <div class="weather-numbers">
+          <p class="weather-number-1">24</p>
+          <p class="weather-number-2">18</p>
+        </div>
+      </div>
+      <div class="weather-card">
+        <h3>Tomorrow</h3>
+        <img src="./images/some_sun.png" alt="some sun image">
+        <p>some sun</p>
+        <div class="weather-numbers">
+          <p class="weather-number-3">24</p>
+          <p class="weather-number-4">18</p>
+        </div>
+      </div>
+      <div class="weather-card">
+        <h3>Friday</h3>
+        <img src="./images/some_clouds.png" alt="some clouds image">
+        <p>some clouds</p>
+        <div class="weather-numbers">
+          <p class="weather-number-5">24</p>
+          <p class="weather-number-6">18</p>
+        </div>
+      </div>
+      <div class="weather-card">
+        <h3>Saturday</h3>
+        <img src="./images/some_sun.png" alt="some sun image">
+        <p>some sun</p>
+        <div class="weather-numbers">
+          <p class="weather-number-7">24</p>
+          <p class="weather-number-8">18</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- -------cookie section footer---- -->
+<div class="cookie">
+  <img src="./images/cookie.png" alt="cookie image">
+  <div class="cookie-description">
+    <h3>Stop! Cookie Time</h3>
+    <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide social media features and to <br> analyse our traffic. <a href="#">Read more...</a></p>
+  </div>
+  <button onclick="removeCookieSection()">
+    I accept
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
